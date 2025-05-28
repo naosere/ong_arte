@@ -7,11 +7,56 @@
 </head>
 <body>
 
-    <main>
+    <main class="dona">
         <div class="titulo">
             <h1>DONÁ</h1>
             <h2>Tu ayuda es la semilla que hace florecer el cambio</h2>
         </div>
+        <section>
+            <h1>Unite a Semillas del Cambio y sé parte del equipo que protege el mundo</h1>
+            <h2>Todos nuestros recursos provienen de donaciones particulares de personas como vos, que deciden apoyar campañas para seguir defendiendo el planeta.</h2>
+            <h3>No recibimos aportes de empresas, partidos políticos ni gobiernos. Somos 100% independientes.<br>Juntos podremos continuar nuestro trabajo con libertad de acción.</h3>
+            <h4>¡Sumate ahora, con vos somos más!</h4>
+        </section>
+        <section>
+            <h4>DONÁ AHORA</h4>
+            <h5>Te enviaremos información sobre nuestras acciones y cómo podés participar.</h5>
+            <h6>Autorizo el débito automático mensual de:</h6>
+            <form method="post" action="dona_gracias.html">
+                <input type="radio" name="valor" value="10">$10
+                <input type="radio" name="valor" value="100">$100
+                <input type="radio" name="valor" value="1000">$1000
+                <input type="radio" name="valor" value="10000">$10000
+                <div>
+                    <h3>Nombre</h3><input type="text" name="nombre">
+                    <h3>Apellido</h3><input type="text" name="apellido">
+                </div>
+
+                <div>       
+                <h3>Tipo de documento</h3>
+                    <select name="documento"required>
+                      <option value=""></option>
+                      <option value="dni">DNI</option>
+                      <option value="cedula">Cédula de identidad</option>
+                      <option value="libreta">Libreta Cívica</option>
+                      <option value="enrolamiento">Libreta de enrolamiento</option>
+                    </select>
+                <h3>Número de documento</h3><input type="number" name="numeroDocumento"> 
+                </div>
+
+                <div>
+                <h3>Correo electronico</h3><input type="email" name="email" placeholder="xxxxx@gmail.com"/>
+                </div>
+
+                <div>
+                <h3>Cód. área</h3><input type="number" name="codigoArea" placeholder="Ej: XX">
+                <h3>Número telefonico</h3><input type="tel" name="telefono"placeholder="Ej: XXXXXXXX">
+                </div>  
+
+                <button type="submit">¡LISTO!</button>
+                <button type="reset">BORRAR TODO</button>
+            </form>
+        </section>
 
         <div>
             
