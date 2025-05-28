@@ -92,14 +92,29 @@ footer div:last-of-type {
 }
 
 
-
+/*PREGUNTAS INTRO*/
+.intro h1{
+    text-align: center;
+    font-size: 200%;
+}
+.intro h2{
+    text-align: center;
+    margin-bottom: 2%;
+    font-size: 100%;
+}
+.intro hr{
+    width: 90%;
+    margin: auto;
+    margin-top: 3%;
+}
+/*DESTACADOS*/
 .index section h1{
     color: #feea34;
     text-align: center;
     font-size: 300%;
     padding: 3%;
+    padding-top: 2%;
 }
-
 .index section div{
     padding-left: 10%;
     padding-right: 10%;
@@ -124,12 +139,36 @@ footer div:last-of-type {
 .index div{
     clear: both;
 }
-
 .index section div hr{
-margin-bottom: 1%;}
-
+margin-bottom: 1%;
+}
+/*SPONSORS*/
 .sponsors h3{
 text-align: center;
 margin-bottom: 1.6%;
 margin-top: 3%;
+}
+.sponsors img{
+    width: 100%;
+}
+
+.personas {
+    display: flex;
+    justify-content: center;
+    gap: 3%; 
+}
+
+.personas div {
+    float: left;
+    width: 20%;
+    margin: 3%;
+
+}
+.personas img{
+    width: 100%;
+    border-radius: 50%;
+}
+.personas h3{
+    font-size: 90%;
+    text-align: center;
 }
