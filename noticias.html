@@ -3,24 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     <main>
-        <div class="titulo">
+        <div>
             <h1>NOTICIAS</h1>
-            <h2>El cambio se escribe día a día</h2>
+            <h2>El cambio se escribe día a día</h2><hr>
         </div>
-
-        <form method="post" action="noticias_registrado.html">
-            <input type="email" name="email" placeholder="xxxxx@gmail.com"/>
-            <button type="submit">QUIERO RECIBIR LAS ULTIMAS NOTICIAS POR MAIL</button>
-        </form>
+        <section class="mail">
+            <form method="post" action="noticias_registrado.html">
+                <input type="email" name="email" placeholder="xxxxx@gmail.com"/>
+                <button type="submit">QUIERO RECIBIR LAS ULTIMAS NOTICIAS POR MAIL</button>
+            </form>    
+        </section>
 
         <!-- NOTICIAS DESTACADAS -->
-        <section>
+        <section class="principales">
             <div>
-                <img src="" alt="">
+                <img src="imagenes/prueba.jpeg" alt="">
                 <h1>Inauguramos nuestra primera huerta comunitaria en Formosa</h1>
                 <h2>El pasado abril dimos inicio a una huerta agroecológica junto a vecinas y vecinos del barrio El Amanecer. Este espacio no solo busca producir alimentos saludables, sino también generar talleres educativos sobre soberanía alimentaria.</h2>
                 <h3><a href="noticias_error.html">LEER MAS</a></h3>
@@ -34,7 +36,7 @@
         </section>
 
         <!-- OTRAS NOTICIAS -->
-        <section>
+        <section class="secundarias">
             <div>
                 <img src="" alt="">
                 <h1>Nuevo convenio con el Ministerio de Ambiente</h1>
