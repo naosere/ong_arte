@@ -216,7 +216,7 @@ margin-top: 3%;
     font-weight: 1000;
     font-size: 100%;
 }
-.mail input[type="email"]{
+.mail input{
     padding-left: 0.5%;
     padding-top: 0.2%;
     padding-bottom: 0.2%;
@@ -226,6 +226,7 @@ margin-top: 3%;
 .mail form{
     margin-top: 0.5%;
 }
+
 
 
 .principales div{
@@ -254,6 +255,34 @@ margin-top: 3%;
     margin-top: 0.3%;
 }
 
+
+.secundarias h1{
+    color: #299900;
+    font-size: 85%;
+}
+.secundarias div{
+    width: 15%;
+    float: left;
+    margin-left: 3.8%;
+}
+.secundarias div :last-of-type{
+    margin-left: 0%;
+}
+.secundarias img{
+    max-width: 100%;
+}
+.secundarias h1{
+    text-align: justify;
+}
+/*
+
+.secundarias{
+    border:1px solid grey;
+}
+.secundarias div{
+    width:15% ;
+    float:right;
+}
 
 
 
