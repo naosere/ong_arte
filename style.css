@@ -11,6 +11,7 @@ header{
     padding-bottom: 0.5%;
     align-items: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
 }
 header img{
     width: 8%;
@@ -56,7 +57,6 @@ nav ul li a {
 
 footer{
     background-color: #299900;
-    margin-top: 2%;
     padding-bottom: 5%;
 }
 footer h2{
@@ -109,12 +109,28 @@ main h2{
 }
 main hr{
     width: 98%;
-    margin-top: 1%;
+    margin-top: 1%;margin-bottom: 1%;
 }
 
+.preFooter{
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 0%;    
+}
 
-
-/*PREGUNTAS INTRO*/
+/*INDEX*/
+.hero{
+    background-image: url("imagenes/hero.jpg");
+    margin-bottom: 3%;
+}
+.hero h1{
+    font-size: 200%;
+    padding-left: 5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    color: white;
+}
+    /*PREGUNTAS INTRO*/
 .intro h1{
     text-align: center;
     font-size: 200%;
@@ -131,7 +147,7 @@ main hr{
     margin: auto;
     margin-top: 3%;
 }
-/*DESTACADOS*/
+    /*DESTACADOS*/
 .destacados h1{
     color: #feea34;
     text-align: center;
@@ -142,6 +158,7 @@ main hr{
 .destacados div{
     padding-left: 10%;
     padding-right: 10%;
+    clear: both;
 }
 .destacados div img{
     width:50%;
@@ -160,17 +177,17 @@ main hr{
     margin-bottom: 2%;
     padding: 0%;
 }
-.destacados div{
-    clear: both;
-}
 .destacados div hr{
-margin-bottom: 1%;
+    width: 47%;
+    margin-bottom: 1%;
 }
-/*SPONSORS*/
+    /*SPONSORS*/
 .sponsors h3{
+    clear: both;
 text-align: center;
 margin-bottom: 1.6%;
 margin-top: 3%;
+padding-top: 6%;
 }
 .sponsors img{
     width: 100%;
@@ -254,8 +271,12 @@ margin-top: 3%;
     text-align: right;
     margin-top: 0.3%;
 }
-
-
+.secundarias hr{
+    width: 80%;
+    margin: auto;
+    margin-top: 19%;
+    margin-bottom: 1%;
+}
 .secundarias h1{
     color: #299900;
     font-size: 85%;
@@ -270,18 +291,162 @@ margin-top: 3%;
 }
 .secundarias img{
     max-width: 100%;
+    object-fit: cover;
 }
 .secundarias h1{
     text-align: justify;
 }
-/*
 
-.secundarias{
-    border:1px solid grey;
+
+/*PROGRAMAS*/
+.programa{
+    float: left; 
+    width: 25%;
+    margin: 2%;
+    border: 1px solid black;
+    padding: 2%;
+    padding-top: 0.5%;
 }
-.secundarias div{
-    width:15% ;
-    float:right;
+.programa h1{
+    color: #299900;
+    font-size: 300%;
+    font-weight: 600;
+    text-align: center;
+}
+.programa img{
+    max-width: 100%;
+    border-radius: 6px;
+
+}
+.programa hr{
+    width: 100%;
+    margin-bottom: 5%;
+
+}
+.programa h3{
+    color: #5d3322;
+    font-size: 100%;
+}
+.programa h2{
+    color: #299900;
+    font-size: 180%;
+}
+.programa p {
+    text-align: justify;
+}
+
+.pronto h1{
+    color: #feea34;
+}
+
+.ubicacion{
+    margin-top: 2%;
+    margin-bottom: 25%;
+}
+.ubicacion img{
+    width: 50%;
+    float: left;
+    
+}
+.ubicacion h4{
+    font-weight: 400;
+    padding-top: 5%;
+    text-align: center;
+}
+
+
+
+
+
+/*DONA*/
+
+.informacion{
+    width: 68%;
+    float: left;
+    margin-right: 2%;
+}
+.informacion h1{
+    color: white;
+    font-size: 200%;
+    width: 70%;
+    padding-top: 20%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    text-shadow: 0 0 2px #000000;
+}
+.informacion h2{
+    font-weight: 800;
+    font-size: 130%;
+    margin-top: 1.5%;
+}
+.informacion h3{
+    font-weight: 200;
+    margin-top: 1.5%;
+}
+.informacion h4{
+    color: #299900;
+    font-size: 120%;
+    margin-top: 2.5%;
+    margin-bottom: 10%;
+}
+.informacion div{
+    background-image: url("imagenes/dona.jpg");
+}
+
+.donar{
+    float: left;
+    width: 30%;
+}
+.donar h4{
+    color: #299900;
+    font-size: 200%;
+}
+.donar h5{
+    font-size: 110%;
+    font-weight: 500;
+}
+.donar h6{
+    margin-top: 7%;
+    font-size: 100%;
+}
+.donar form{
+    width: 100%;
+}
+.donar input{
+    margin-left: 2%;
+    padding: 1.5%;
+}
+.donar div{
+    width: 50%;
+    float: left;
+    margin-top: 4%
+}
+.donar div input{
+    margin-left: 0%;
+    width: 90%;
+}
+.donar div select{
+    width: 90%;
+    padding: 1.5%;
+}
+
+
+.donar button{
+    border: 0px;
+    width: 97%;
+    padding: 2%;
+    border-radius: 5px;
+    background-color: #feea34;
+    font-weight: 500;
+}
+
+div.correo{
+    width: 103%;
+}
+.correo{
+    width: 90%;
+    margin-bottom: 5%;
+
 }
 
 
@@ -290,8 +455,29 @@ margin-top: 3%;
 
 
 
-
-
-
-
-
+/*PROYECTOS*/
+.proyecto{
+    width: 50%;
+    float: left;
+    margin-bottom: 4%;
+}
+.proyecto div{
+    width: 48%;
+    float:left;
+    margin-right: 1%;
+}
+.proyecto img{
+    width: 95%;
+}
+.proyecto h1{
+    color: #299900;
+    font-size: 300%;
+    margin-bottom: 2%;
+}
+.proyecto p{
+    text-align: justify;
+}
+.proyecto h2{
+    color: #5d3322;
+    margin-top:5%;
+}
